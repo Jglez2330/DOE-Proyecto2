@@ -1,0 +1,50 @@
+
+Film "image" "integer xresolution" [1350] "integer yresolution" [810]
+  "string filename" "f15-13.exr"
+
+Sampler "halton" "integer pixelsamples" 4096
+Integrator "path" "integer maxdepth" 2
+
+LookAt 500 -100 300 0 100 -60  0 0 1
+Camera "perspective" "float fov" [32]
+
+WorldBegin
+
+AttributeBegin
+Rotate 90 0 0 1
+Rotate -90 1 0 0
+LightSource "infinite" "string mapname"
+    "textures/20060807_wells6_hd.exr"   "color scale" [2.5 2.5 2.5]
+AttributeEnd
+
+AttributeBegin
+Material "matte" "color Kd" [.1 .1 .1]
+Translate 0 0 -40
+Shape "trianglemesh"
+   "point P" [ -1000 -1000 0   1000 -1000 0   1000 1000 0 -1000 1000 0 ]
+   "float uv" [ 0 0 1 0 1 1 0 1 ]
+	"integer indices" [ 0 1 2 2 3 0]
+AttributeEnd
+
+
+AttributeBegin
+Translate -60 -60 0
+Rotate -53 0 1 0
+Material "subsurface" "string name" "Regular Soy Milk" # "Espresso"
+   "float eta" [1.33] 
+   "float uroughness" [0.05] "float vroughness" [0.05]
+   "bool remaproughness" ["false"]
+Shape "plymesh" "string filename" "geometry/dragon_remeshed.ply"
+AttributeEnd
+
+AttributeBegin
+Translate 110 110 0
+Rotate -53 0 1 0
+Material "subsurface" "string name" "Ketchup"
+   "float eta" [1.33]
+   "float uroughness" [0.05] "float vroughness" [0.05]
+   "bool remaproughness" ["false"]
+Shape "plymesh" "string filename" "geometry/dragon_remeshed.ply"
+AttributeEnd
+
+WorldEnd
