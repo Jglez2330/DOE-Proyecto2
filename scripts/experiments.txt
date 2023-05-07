@@ -1,16 +1,16 @@
-Scene 1_kdtree_path 
-Scene 3_bvh_path 
-Scene 3_kdtree_path 
-Scene 1_bvh_volpath 
-Scene 4_bvh_volpath 
-Scene 1_kdtree_volpath 
-Scene 4_kdtree_volpath 
-Scene 2_bvh_path 
-Scene 2_bvh_volpath 
-Scene 1_bvh_path 
-Scene 2_kdtree_path 
-Scene 2_kdtree_volpath 
-Scene 4_kdtree_path 
-Scene 4_bvh_path 
-Scene 3_kdtree_volpath 
-Scene 3_bvh_volpath 
+Smoke/smoke_kdtree_volpath.pbrt 
+Smoke/smoke_bvh_path.pbrt 
+dragon/Dragon_kdtree_path.pbrt 
+book/book_bvh_path.pbrt 
+Smoke/smoke_kdtree_path.pbrt 
+book/book_kdtree_path.pbrt 
+killroos/killeroo_kdtree_volpath.pbrt 
+dragon/Dragon_bvh_path.pbrt 
+dragon/Dragon_kdtree_volpath.pbrt 
+Smoke/smoke_bvh_volpath.pbrt 
+dragon/Dragon_bvh_volpath.pbrt 
+book/book_bvh_volpath.pbrt 
+book/book_kdtree_volpath.pbrt 
+killroos/killeroo_kdtree_path.pbrt 
+killroos/killeroo_bvh_path.pbrt 
+killroos/killeroo_bvh_volpath.pbrt 

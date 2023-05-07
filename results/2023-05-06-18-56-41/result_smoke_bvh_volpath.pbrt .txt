@@ -1,0 +1,1 @@
+Smoke/smoke_bvh_volpath.pbrt 
