@@ -1,1 +1,0 @@
-book/book_kdtree_path.pbrt 

@@ -15,7 +15,7 @@ def generate_random_exp(scenes, accelerators, integrators):
     f.close()
 
 def main():
-    scenes = ['book/book', 'dragon/Dragon', 'killroos/killeroo', 'Smoke/smoke']
+    scenes = ['chopper-titan/chopper_titan', 'cloud/cloud', 'coffee-splash/splash', 'dragon/Dragon']
     accelerators = ['bvh', 'kdtree']
     integrators = ['path', 'volpath']
     generate_random_exp(scenes, accelerators, integrators)
