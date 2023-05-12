@@ -1,0 +1,36 @@
+# Materials File
+
+# spoon: silver
+MakeNamedMaterial "Material"
+        "string type" "metal"
+        "spectrum eta" "spds/Au.eta.spd"
+        "spectrum k" "spds/Au.k.spd"
+	"float roughness" [0.05]
+
+# ???
+MakeNamedMaterial "luz"
+	"color Kd" [1 0 0]
+	"float sigma" [0.000000000000000]
+	"string type" ["matte"]
+
+MakeNamedMaterial "cafe"
+#"string type" "kdsubsurface" "color Kd" [.1 .05 .02] # 15 .075 .03]
+#   "float eta" [1.33] "color mfp" [1 .5 .2] #[.181 .134 .139]
+#   # [.181 .134 .139]
+#   "color Kr" [.3 .3 .3]
+# "string name" "Espresso"  "float scale" 100
+  "string type" "glass"
+
+MakeNamedMedium "liquid" "string type" "homogeneous"
+"color sigma_a" [ .06 .07 .0785 ] "color sigma_s" [ .02 .01 .0015 ] "float scale" .1
+
+# ground plane
+MakeNamedMaterial "Material.001"
+	"color Kd" [.2 .2 .2]
+	"float sigma" [10]
+	"string type" ["matte"]
+
+# cup
+MakeNamedMaterial "porcelana"
+    "string type" "fourier" "string bsdffile" "bsdfs/ceramic.bsdf"
+
