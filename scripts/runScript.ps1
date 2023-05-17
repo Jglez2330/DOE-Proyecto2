@@ -18,7 +18,7 @@ function runExperiment {
 function runMultipleExperiments {
   param([int]$numExperiments)
   for ($i = 1; $i -le $numExperiments; $i++) {
-    python ".\random_experiments_generator.py"
+    py ".\random_experiments_generator.py"
     Write-Output "Running experiment $i"
     runExperiment
   }
