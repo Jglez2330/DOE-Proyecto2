@@ -1,16 +1,3 @@
-coffee-splash/splash_kdtree_path.pbrt 
-cloud/cloud_kdtree_path.pbrt 
-dragon/Dragon_kdtree_volpath.pbrt 
-chopper-titan/chopper_titan_kdtree_volpath.pbrt 
-coffee-splash/splash_kdtree_volpath.pbrt 
-chopper-titan/chopper_titan_bvh_path.pbrt 
-dragon/Dragon_bvh_volpath.pbrt 
-coffee-splash/splash_bvh_volpath.pbrt 
-chopper-titan/chopper_titan_bvh_volpath.pbrt 
-coffee-splash/splash_bvh_path.pbrt 
-cloud/cloud_kdtree_volpath.pbrt 
-cloud/cloud_bvh_volpath.pbrt 
-dragon/Dragon_bvh_path.pbrt 
-dragon/Dragon_kdtree_path.pbrt 
-cloud/cloud_bvh_path.pbrt 
-chopper-titan/chopper_titan_kdtree_path.pbrt 
+version https://git-lfs.github.com/spec/v1
+oid sha256:b962654a4fdb32dce0e22593d9f4d0d3afef9000e844dccdc7af869da44555ac
+size 588

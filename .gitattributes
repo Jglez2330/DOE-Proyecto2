@@ -1,2 +1,13 @@
-*.ply filter=lfs diff=lfs merge=lfs -text
 *.bsdf filter=lfs diff=lfs merge=lfs -text
+*.ply filter=lfs diff=lfs merge=lfs -text
+*.spd filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.DS_Store filter=lfs diff=lfs merge=lfs -text
+*.gitkeep filter=lfs diff=lfs merge=lfs -text
+*.pbrt filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.pfm filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.py filter=lfs diff=lfs merge=lfs -text
+*.ps1 filter=lfs diff=lfs merge=lfs -text
+*.sh filter=lfs diff=lfs merge=lfs -text

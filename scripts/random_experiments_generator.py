@@ -1,23 +1,3 @@
-import itertools
-import random
-
-def generate_random_exp(scenes, accelerators, integrators):
-    # All possible combinations
-    runs = list(itertools.product(scenes, accelerators, integrators))
-
-    # Shuffle the list to randomize order
-    random.shuffle(runs)
-
-    # Writing result
-    f = open("experiments.txt", "w")
-    for run in runs:
-        f.write(f"{run[0]}_{run[1]}_{run[2]}.pbrt \n")
-    f.close()
-
-def main():
-    scenes = ['bump_sphere/bump_sphere', 'cloud/cloud', 'smoke/smoke', 'yeahright/yeahright']
-    accelerators = ['bvh', 'kdtree']
-    integrators = ['path', 'volpath']
-    generate_random_exp(scenes, accelerators, integrators)
-if __name__ == "__main__":
-    main()
+version https://git-lfs.github.com/spec/v1
+oid sha256:f552517c10e316ad8a4e07189d323c8d32296aa596656fe224f7cd9d758ab239
+size 689

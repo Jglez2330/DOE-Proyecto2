@@ -1,31 +1,3 @@
-
-LookAt -4.082462 -26.445557 7.488438 -3.408813 -21.135092 5.562232 0.307266 1.902535 5.352667
-
-Sampler "sobol" "integer pixelsamples" [1024]
-
-Accelerator "kdtree"
-Integrator "path"
-
-Camera "perspective"
-	"float fov" [39.146252510876771]
-
-Film "image"
-	"integer xresolution" [1000]
-	"integer yresolution" [800]
-        "float scale" 2
-        "string filename" "splash.exr"
-
-WorldBegin
-
-AttributeBegin
-Rotate 90 0 0 1
-Rotate -90 1 0 0
-LightSource "infinite" "string mapname"
-    "textures/20060807_wells6_hd.exr"   "color scale" [2.5 2.5 2.5]
-AttributeEnd
-
-Include "materials.pbrt"
-
-Include "geometry.pbrt"
-
-WorldEnd
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd49373689eebeffc95d18fc284b02d87df899f4adf6ceb225e15f21792ac1b1
+size 617
